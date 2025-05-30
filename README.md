@@ -18,8 +18,8 @@ This is a solution to the [Blog Preview Card challenge on Frontend Mentor](https
 ### Screenshot
 
 ![](design/desktop-design.jpg)
-![](design/desktop-design.jpg)
 ![](design/mobile-design.jpg)
+![](design/active-states.jpg)
 
 ### Links
 
