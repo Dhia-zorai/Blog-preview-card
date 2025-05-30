@@ -17,11 +17,10 @@
       @font-face {
         font-family: "Figtree";
         src: url("assets/fonts/Figtree-VariableFont_wght.ttf") format("woff2");
-          
-        font-weight: 400 1000;
+
+        font-weight: 400 700;
         font-style: normal;
       }
-
 
       body {
         min-height: 100vh;
@@ -38,12 +37,16 @@
         display: flex;
         max-height: 522px;
         max-width: 330px;
-        padding: 24px 24px;
+        padding: 24px 22px;
         flex-direction: column;
         border-radius: 20px;
         box-shadow: 8px 8px;
-        border: 1px black;
-        transition: box-shadow 0.5s ease-out;
+        border: 1px solid #111111;
+        transition: box-shadow 0.3s ease-in-out;
+      }
+
+      .maindiv:hover h2 {
+        color: #f4d04e;
       }
 
       .maindiv:hover {
@@ -67,9 +70,8 @@
         padding: 4px 13px;
         height: 35px;
         width: 82px;
-        font-weight: 400;
+        font-weight: 700;
         margin-bottom: 30px;
-        font-weight: 400;
       }
 
       .date {
@@ -85,11 +87,7 @@
         margin-bottom: 30px;
         text-shadow: 4px 4px;
         font-weight: 1000;
-        text-shadow: 0 2px 10px rgba(0,0,0,0.60);
-      }
-
-      h2:hover {
-        color: #f4d04e;
+        text-shadow: 0 2px 7px rgba(0, 0, 0, 0.6);
       }
 
       .text {
@@ -117,7 +115,25 @@
       .authorname {
         text-shadow: 12px;
         font-weight: 700;
-        text-shadow: 0 2px 10px rgba(0,0,0,0.60);
+        text-shadow: 0 2px 7px rgba(0, 0, 0, 0.6);
+      }
+
+      @media (max-width: 500px) {
+        body {
+          min-height: 100vh;
+         
+        }
+
+        .maindiv {
+          margin-bottom: 10%;
+          width: 75vw;
+          padding: 24px 24px;
+        }
+
+        .image {
+          width: 100%;
+          height: auto;
+        }
       }
     </style>
   </head>
@@ -137,7 +153,7 @@
         <h2>HTML & CSS foundations</h2>
 
         <p class="text">
-          These languages are the backbone of every website, defining structure,  
+          These languages are the backbone of every website, defining structure,
           content, and presentation.
         </p>
       </div>

@@ -17,9 +17,9 @@ This is a solution to the [Blog Preview Card challenge on Frontend Mentor](https
 
 ### Screenshot
 
-![](design/desktop-design.jpg)
-![](design/mobile-design.jpg)
-![](design/active-states.jpg)
+![](design\desktop-design.jpg)
+![](design\desktop-design.jpg)
+![](design\active-states.jpg)
 
 ### Links
 
@@ -43,4 +43,4 @@ This project helped me refresh my css skills.
 
 ### Useful resources
 
-- [FlexBox Froggy](https://flexboxfroggy.com/) - This is a simple yet an amazing game for anyone who wants to learn or remember flexbox. I'd recommend it to anyone wanting to improve their flexbox skill.
+- [Example resource 2](https://flexboxfroggy.com/) - This is a simple yet an amazing game for anyone who wants to learn or remember flexbox. I'd recommend it to anyone wanting to improve their flexbox skill.
